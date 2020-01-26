@@ -1,5 +1,16 @@
 # AnchorInternal
 
+Internal Anchor tags jitter. Tested in Safari.
+
+* Start the server
+* Head to `http://localhost:4000/#section-3`
+* Scroll back to top of page
+* Hit reload ⌘r
+* Page jumps immediately to #section-3, but then on second paint goes back to top of page.
+
+Expect it to just rest on #section-3
+
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`

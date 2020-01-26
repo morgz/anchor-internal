@@ -20,6 +20,6 @@ defmodule AnchorInternalWeb.Tests.InternalAnchor do
   end
 
   def mount(_params, _session, socket) do
-    {:noreply, socket}
+    {:ok, socket}
   end
 end
